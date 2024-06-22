@@ -1,0 +1,37 @@
+
+
+.contenedor_presentacion {
+    display: flex;
+    align-items: center;
+}
+
+.imagen_presentacion {
+    flex: 0 0 auto; /* Esto mantiene el tamaño de la imagen original */
+}
+
+.info_presentacion {
+    flex: 1; /* El texto ocupará todo el espacio restante */
+}
+
+.recursos_presentacion {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.sec_formacion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 94px;
+}
+
+.academic__courses__item__img{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
